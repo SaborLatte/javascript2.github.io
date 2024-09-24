@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programas</title>
+    <script src="./validar.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css">
+</head>
+<body>
+    <div class="ejercicio1">
+        <label>Calculo de inversión</label>
+        <form method="get" name="interes" onsubmit="return validar(this)" action="index.html">
+            <label>Capital Inicial</label>
+            <input class="cajas1" type="text" name="CA" id="CA">
+            <label>Interes del banco</label>
+            <input class="cajas1" type="text" name="I" id="I">
+            <br>
+            <label>Meses</label>
+            <input class="cajas1" type="text" name="meses" id="meses">
+            <label>Cantidad final</label>
+            <input class="cajas1" type="text" name="CF" id="CF" placeholder="No llenar este campo">
+            <br>
+            <br>
+            <div class="boton-container">
+                <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+            </div>
+            
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio2">
+        <label>Calculo del sueldo final</label>
+        <form method="get" name="sueldo" onsubmit="return validar2(this)" action="index.html">
+            <label>Sueldo fijo</label>
+            <input class="cajas1" type="text" name="sueldo1" id="sueldo1">
+            <br>
+            <label>Venta 1</label>
+            <input class="cajas1" type="text" name="v1" id="v1">
+            <br>
+            <label>Venta 2</label>
+            <input class="cajas1" type="text" name="v2" id="v2">
+            <br>
+            <label>Venta 3</label>
+            <input class="cajas1" type="text" name="v3" id="v3">
+            <br>
+            <label>Sueldo final</label>
+            <input class="cajas1" type="text" name="sueldof" id="sueldof" placeholder="No llenar este campo">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio3">
+        <label>Descuento</label>
+        <form method="get" name="descuento" onsubmit="return validar3(this)" action="index.html">
+            <label>Cantidad a pagar</label>
+            <input class="cajas1" type="text" name="cantidad1" id="cantidad1">
+            <br>
+            <label>Cantidad final</label>
+            <input class="cajas1" type="text" name="cantidadf" id="cantidadf" placeholder="No llenar este campo">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio4">
+        <label>Calificación final</label>
+        <form method="get" name="Calificación Final" onsubmit="return validar4(this)" action="index.html">
+            <label>Calificación Parcial 1</label>
+            <input class="cajas1" type="text" name="p1" id="p1">
+            <label>Calificación Parcial 2</label>
+            <input class="cajas1" type="text" name="p2" id="p2">
+            <label>Calificación Parcial 3</label>
+            <input class="cajas1" type="text" name="p3" id="p3">
+            <label>Calificación Trabajo Final</label>
+            <input class="cajas1" type="text" name="tf" id="tf">
+            <label>Calificación Examen Final</label>
+            <input class="cajas1" type="text" name="ef" id="ef">
+            <label>Calificación Final</label>
+            <input class="cajas1" type="text" name="calificacionf" id="calificacionf" placeholder="No llenar este campo">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio5">
+        <label>Calculo de Edad</label>
+        <form method="get" name="Edad" onsubmit="return validar5(this)" action="index.html">
+            <label>Ingrese su año de nacimiento</label>
+            <input class="cajas1" type="text" name="año" id="año">
+            <label>Edad Actual</label>
+            <input class="cajas1" type="text" name="edad" id="edad" placeholder="No llenar este campo">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio6">
+        <label>palabrasAnumeros</label>
+        <form method="get" name="palabras" onsubmit="return validar6(this)" action="index.html">
+            <label>Ingrese la palabra</label>
+            <input class="cajas1" type="text" name="palabras" id="palabras">
+            <label>Número</label>
+            <input class="cajas1" type="text" name="numer" id="numer" placeholder="No llenar este campo">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio7">
+        <label>Hora extras</label>
+        <form method="get" name="horas" onsubmit="return validar7(this)" action="index.html">
+            <label>Ingresar tus horas trabajadas</label>
+            <input class="cajas1" type="text" name="horas" id="horas">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio8">
+        <label>Calculo de Utilidades</label>
+        <form method="get" name="empresa" onsubmit="return validar8(this)" action="index.html">
+            <label>Ingresa los años que llevas trabajando en la empresa</label>
+            <input class="cajas1" type="text" name="añosem" id="añosem">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="ejercicio9">
+        <label>DNI</label>
+        <form method="get" name="dni" onsubmit="return validar9(this)" action="index.html">
+            <label>Ingresa tu nombre</label>
+            <input class="cajas1" type="text" name="nombrec" id="nombrec" required>
+            <label>Ingresa tu email</label>
+            <input class="cajas1" type="email" name="emails" id="emails" required>
+            <label>Ingresa un comentario(maximo 50 caracteres)</label>
+            <input class="cajas1" type="text" id="nombre" name="nombre" maxlength="50" >
+            <label>Ingresa una contraseña (Minimo 6 caracteres)</label>
+            <input class="cajas1" type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}" minlength="6" required title="La contraseña debe tener al menos 6 caracteres, incluir una letra minúscula, una letra mayúscula y un número." >
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+    </div>
+</body>
+</html>
